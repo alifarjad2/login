@@ -1,5 +1,5 @@
 const nameInput = document.getElementsByName('username')[0]
-nameInput2.focus()
+nameInput3.focus()
 nameInput.oninput = (event) => {
     const mobile = event.target.value + ''
     console.log(event.target.value)
